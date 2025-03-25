@@ -2,9 +2,7 @@ class CfgPatches
 {
 	class PlainDayZdonoGearFlag
 	{
-		units[]=
-		{
-		};
+		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -18,14 +16,6 @@ class CfgPatches
 class cfgVehicles
 {
 	class Flag_Base;
-	class plain_dayz_flag: Flag_Base  
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"PlainDayZCustomGear\Data\DonoGear\Flags\PlainDayZflag.paa"
-		};
-	};
 	class modform_flag: Flag_Base  
 	{
 		scope=2;
