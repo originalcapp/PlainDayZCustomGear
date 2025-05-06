@@ -2,7 +2,15 @@ class CfgPatches
 {
     class PlainDayZdonoGearBottoms
     {
-        units[]={};
+        units[]=
+        {
+            "PDZ_BDUPants_Base",
+            "PDZ_ParamedicPants_Base",
+            "PDZ_HunterPants_Base",
+            "PDZ_TTSKOPants_Base",
+            "PDZ_PolicePants_Base",
+            "PDZ_CargoPants_Base"
+        };
         weapons[]={};
         requiredVersion=0.1;
         requiredAddons[]=
@@ -23,9 +31,9 @@ class CfgVehicles
     class BDUPants;
     class PDZ_BDUPants_Base: BDUPants
     {
-        scope=1;
-        displayName="";
-        descriptionShort=;
+        scope=0;
+        displayName="Base Class Go Away";
+        descriptionShort="";
 		attachments[]=
 		{
 			"shoulder",
@@ -43,9 +51,9 @@ class CfgVehicles
 		quickBarBonus=2;
         hiddenSelections[]=
         {
-            "MÅ_ENDRES",
-            "MÅ_ENDRES",
-            "MÅ_ENDRES"
+            "camoGround",
+            "camoMale",
+            "camoFemale"
         };
 		class DamageSystem
 		{
@@ -69,8 +77,8 @@ class CfgVehicles
     class ParamedicPants_ColorBase;
 	class PDZ_ParamedicPants_Base: ParamedicPants_ColorBase
 	{
-        scope=1;
-		displayName="";
+        scope=0;
+		displayName="Base Class Go Away";
         descriptionShort="";
 		attachments[]=
 		{
@@ -90,9 +98,9 @@ class CfgVehicles
         hiddenSelectionsTextures[]=
         hiddenSelections[]=
         {
-            "MÅ_ENDRES",
-            "MÅ_ENDRES",
-            "MÅ_ENDRES"
+            "camoGround",
+            "camoMale",
+            "camoFemale"
         };
 		class DamageSystem
 		{
@@ -116,8 +124,8 @@ class CfgVehicles
 	class HunterPants_ColorBase;
 	class PDZ_HunterPants_Base: HunterPants_ColorBase
 	{
-		scope=1;
-		displayName="";
+		scope=0;
+		displayName="Base Class Go Away";
 		descriptionShort="";
 		attachments[]=
 		{
@@ -136,9 +144,9 @@ class CfgVehicles
 		quickBarBonus=2;
         hiddenSelections[]=
         {
-            "MÅ_ENDRES",
-            "MÅ_ENDRES",
-            "MÅ_ENDRES"
+            "camoGround",
+            "camoMale",
+            "camoFemale"
         };
 		class DamageSystem
 		{
@@ -154,8 +162,8 @@ class CfgVehicles
     class TTSKOPants;
 	class PDZ_TTSKOPants_Base: TTSKOPants
     {
-		scope=1;
-        displayName="";
+		scope=0;
+        displayName="Base Class Go Away";
         descriptionShort="";
 		attachments[]=
 		{
@@ -174,9 +182,9 @@ class CfgVehicles
 		quickBarBonus=2;
         hiddenSelections[]=
         {
-            "MÅ_ENDRES",
-            "MÅ_ENDRES",
-            "MÅ_ENDRES"
+            "camoGround",
+            "camoMale",
+            "camoFemale"
         };
 		class DamageSystem
 		{
@@ -190,10 +198,10 @@ class CfgVehicles
 		};
 	};
     class PolicePants;
-	class 2geteilt_pants: PolicePants
+	class PDZ_PolicePants_Base: PolicePants
 	{
-		scope=2;
-		displayName="2geteilt`s Pants";
+		scope=0;
+		displayName="Base Class Go Away";
 		descriptionShort="";
 		attachments[]=
 		{
@@ -228,10 +236,10 @@ class CfgVehicles
 		};
 	};
 	class CargoPants_ColorBase;
-	class carling51_pants: CargoPants_ColorBase
+	class PDZ_CargoPants_Base: CargoPants_ColorBase
 	{
-		scope=2;
-		displayName="Carling`s Pants";
+		scope=0;
+		displayName="Base Class Go Away";
 		descriptionShort="";
 		attachments[]=
 		{
