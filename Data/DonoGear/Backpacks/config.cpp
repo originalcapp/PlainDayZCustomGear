@@ -18,10 +18,10 @@ class cfgVehicles
 	class TaloonBag_ColorBase;
 	class PDZ_TaloonBag_Base: TaloonBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\taloon_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -96,7 +96,6 @@ class cfgVehicles
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\tortilla_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -165,10 +164,10 @@ class cfgVehicles
 	class DryBag_ColorBase;
 	class PDZ_DryBag_Base: DryBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\drybag_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -245,7 +244,6 @@ class cfgVehicles
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\hunting_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -318,10 +316,10 @@ class cfgVehicles
 	class MountainBag_ColorBase;
 	class PDZ_MountainBag_Base: MountainBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\mountain_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -393,10 +391,10 @@ class cfgVehicles
 	class ChildBag_ColorBase;
 	class PDZ_ChildBag_Base: ChildBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\childs_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -468,10 +466,10 @@ class cfgVehicles
 	class AssaultBag_ColorBase;
 	class PDZ_AssaultBag_Base: AssaultBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\boulder_m53_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -543,10 +541,11 @@ class cfgVehicles
 	class CoyoteBag_ColorBase;
 	class PDZ_CoyoteBag_Base: CoyoteBag_ColorBase
 	{
+
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\CoyotesBP_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -617,10 +616,10 @@ class cfgVehicles
 	class AliceBag_ColorBase;
 	class PDZ_AliceBag_Base: AliceBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\alicebackpack_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -691,10 +690,10 @@ class cfgVehicles
 	class SlingBag_ColorBase;
 	class PDZ_SlingBag_Base: SlingBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\SlingBag_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
@@ -762,10 +761,10 @@ class cfgVehicles
 	class DrysackBag_ColorBase;
 	class PDZ_DrysackBag_Base: DrysackBag_ColorBase
 	{
+		scope=0;
 		displayName="BaseClassGoAway";
 		descriptionShort="";
 		model="\dz\characters\backpacks\drysackbag_g.p3d";
-		debug_ItemCategory=9;
 		inventorySlot[]={"Back"};
 		attachments[]=
 		{
